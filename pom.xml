@@ -8,6 +8,11 @@
   <modules>
     <module>t2</module>
     <module>t3</module>
+    <module>t4</module>
+      <module>t5</module>
+      <module>t6</module>
+      <module>t7</module>
+      <module>t8</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -74,11 +79,11 @@
       <artifactId>ehcache-core</artifactId>
       <version>${ehcache.version}</version>
     </dependency>
-    <!--<dependency>-->
-      <!--<groupId>org.apache.maven.plugins</groupId>-->
-      <!--<artifactId>maven-compiler-plugin</artifactId>-->
-      <!--<version>${compiler.version}</version>-->
-    <!--</dependency>-->
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>${compiler.version}</version>
+    </dependency>
     <dependency>
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>

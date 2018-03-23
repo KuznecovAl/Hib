@@ -3,8 +3,6 @@ package mytasks;
 import mytasks.entity.Car;
 import mytasks.entity.Person;
 import mytasks.utils.EMUtil;
-import org.hibernate.LazyInitializationException;
-import org.hibernate.Session;
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
